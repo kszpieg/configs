@@ -23,7 +23,7 @@ echo "INFO: SETTING UP YOUR COMPUTER..."
 sudo apt update -y && sudo apt upgrade -y
 
 # check for curl and install if it's not found
-echo "Checking for zsh..."
+echo "Checking for curl..."
 if test ! "$(which curl)"; then
     sudo apt install curl -y
 fi
